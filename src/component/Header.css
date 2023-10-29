@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 8vh;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  background: #f3eaea;
+}
+
+.username-text {
+  display: none;
+}
+
+.header-title {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .username-text {
+    display: block;
+  }
+}

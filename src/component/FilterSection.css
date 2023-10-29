@@ -1,0 +1,24 @@
+.smallScreen {
+  display: block !important;
+}
+
+.bigScreen {
+  display: none !important;
+}
+
+@media screen and (min-width: 600px) {
+  .smallScreen {
+    display: none !important;
+  }
+
+  .bigScreen {
+    display: block !important;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .asideSection {
+    height: 70vh;
+    overflow-y: auto;
+  }
+}
